@@ -12,7 +12,7 @@ import Avatar from "@/app/components/Avatar";
 
 interface ConversationBoxProps {
   data: FullConversationType;
-  selected?: Boolean;
+  selected?: boolean;
 }
 
 const ConversationBox: React.FC<ConversationBoxProps> = ({
